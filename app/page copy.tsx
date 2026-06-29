@@ -13,7 +13,7 @@ export default function Home() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: { duration: 1, ease: [0.215, 0.61, 0.355, 1] },
+      transition: { duration: 1, ease: [0.215, 0.61, 0.355, 1] as const },
     },
   };
 
