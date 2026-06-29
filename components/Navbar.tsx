@@ -9,30 +9,30 @@ export default function Navbar() {
         
         {/* Logo එකටත් Magnetic දාමු */}
         <Magnetic>
-          <Link href="/" className="text-xl font-bold tracking-tighter uppercase text-white p-4 -ml-4 block">
+          <Link href="/" className="text-xl font-bold tracking-tighter uppercase text-white p-0 md:p-4 -ml-4 block">
             Home
           </Link>
         </Magnetic>
 
-        <div className="flex gap-4 text-sm font-medium uppercase tracking-widest text-white/80">
+        <div className="flex  gap-4 text-xs md:text-sm font-medium uppercase tracking-widest text-white/80">
           
           {/* Work Link එකට Magnetic දාමු */}
           <Magnetic>
-            <Link href="/work" className="hover:text-white transition p-4 block">
+            <Link href="/work" className="hover:text-white transition p-0 md:p-4 block">
               Work
             </Link>
           </Magnetic>
 
           {/* About Link එකට Magnetic දාමු */}
           <Magnetic>
-            <Link href="/about" className="hover:text-white transition p-4 block">
+            <Link href="/about" className="hover:text-white transition p-0 md:p-4 block">
               About
             </Link>
           </Magnetic>
 
           <Magnetic>
-            <Link href="/contact" className="hover:text-white transition p-4 block">
-              Contact Us
+            <Link href="/contact" className="hover:text-white transition p-0 md:p-4 block">
+              Contact
             </Link>
           </Magnetic>
           
