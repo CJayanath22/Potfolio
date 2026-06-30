@@ -208,7 +208,7 @@ function StudioRow({ data, index }: { data: any; index: number }) {
         </div>
 
         {/* දකුණු පස: මාතෘකාව සහ විස්තරය */}
-        <div className="w-full md:w-2/3 flex flex-col justify-start bg-inherit text-inherit">
+        <div className="w-full md:w-2/3 flex flex-col justify-start bg-inherit text-white">
           {/* text-white වෙනුවට text-inherit යෙදූ නිසා පසුබිම සුදු වන විට අකුරු කළු පැහැයට හැරේ */}
           <h3 className="text-4xl md:text-[5vw] leading-[1.1] font-medium tracking-tight mb-2 transition-colors duration-500">
             {data.title}
