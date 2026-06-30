@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 // 2. වෙබ් අඩවියේ නම සහ විස්තරය (SEO සඳහා)
 export const metadata: Metadata = {
-  title: "Uncommon Design | Clone",
+  title: "Charith Jayanath | Portfolio",
   description: "High-end creative agency website clone",
 };
 
